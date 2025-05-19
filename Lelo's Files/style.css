@@ -1,11 +1,26 @@
 body{
-    justify-content: center
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(158, 155, 161);
+}
+.file-name {
+            position: relative;
+            
+}
+.file-text h1,h2{
+    position: absolute;
+    top: 0;
+}
+h1{
+    transform: rotate(335deg);
+}
+.file-text h2{
+    
 }
 img{
-    
-    rotate:;
-}
-p {
-    
-    rotate: skew;
+     transform: rotate(335deg);
 }
